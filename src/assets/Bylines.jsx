@@ -7,6 +7,7 @@ export default function Bylines() {
   const contentByCategory = {
     journalism: {
       2026: [
+        { text: '"Texas has 500 potential ‘zombie’ wells. This map shows where they are most likely to pollute."', link: 'https://www.houstonchronicle.com/projects/2026/zombie-oil-wells-map-search/', publication: 'Houston Chronicle' },
         { text: '"An Interview With Zach Tittel of Zook"', link: 'https://actioncatzine.com/2026/01/23/an-interview-with-zach-tittel-of-zook/', publication: 'Action Cat Zine' },
         { text: '"2026 Poll Trackers"', link: 'https://www.nytimes.com/interactive/polls/arizona-governor-election-polls-2026.html', publication: 'The New York Times' },
         { text: '"List of Lists 2025"', link: 'https://nobells.blog/the-list-of-lists-2025', publication: 'No Bells Magazine' },
