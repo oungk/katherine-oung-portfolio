@@ -46,6 +46,8 @@ export default function Bylines() {
     },
     poetry: {
       2026: [
+        { text: '"Pulling Teeth"', publication: 'DIALOGIST (forthcoming)' },
+        { text: '"Ides of March"', publication: 'DIALOGIST (forthcoming)' },
         { text: '"Strange Configurations"', publication: 'Swamp Ape Magazine (forthcoming)' },
         { text: '"No Consolation"', publication: 'Swamp Ape Magazine (forthcoming)' },
         { text: '"WHAT YOU LOVE IS YOUR FATE"', publication: 'Indianapolis Review (forthcoming)' },
