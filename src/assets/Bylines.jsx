@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 export default function Bylines() {
   const [selectedCategory, setSelectedCategory] = useState('journalism');
 
-  // Define different content sets for each category
   const contentByCategory = {
     journalism: {
       2026: [
@@ -52,9 +51,9 @@ export default function Bylines() {
         { text: '"No Consolation"', publication: 'Swamp Ape Magazine (forthcoming)' },
         { text: '"WHAT YOU LOVE IS YOUR FATE"', publication: 'Indianapolis Review (forthcoming)' },
         { text: '"Love Poem With and Without"', publication: 'Indianapolis Review (forthcoming)' },
-        { text: '"you kept telling me the west isn\'t wild anymore"', publication: 'Foglifter Journal (forthcoming)' },
-        { text: '"It was summer, and"', publication: 'Foglifter Journal (forthcoming)' },
-        { text: '"Summer Camp"', publication: 'Foglifter Journal (forthcoming)' },
+        { text: '"you kept telling me the west isn\'t wild anymore"', publication: 'Foglifter Journal', link: 'https://www.foglifterjournal.com/oe-issue-11' },
+        { text: '"It was summer, and"', publication: 'Foglifter Journal', link: 'https://www.foglifterjournal.com/oe-issue-11' },
+        { text: '"Summer Camp"', publication: 'Foglifter Journal', link: 'https://www.foglifterjournal.com/oe-issue-11' },
       ],
       2025: [
         { text: '"Free Association"', publication: 'Jack (print)', link: 'https://drive.google.com/file/d/17gHkAW51KPclow48j39nNpXyQMh3pYfc/view?usp=sharing' },
@@ -96,7 +95,7 @@ export default function Bylines() {
     },
   };
 
-  const categories = ['journalism', 'poetry','photography', 'audio', 'video'];
+  const categories = ['journalism', 'poetry', 'photography', 'audio', 'video'];
   const currentContent = contentByCategory[selectedCategory] || {};
 
   return (
