@@ -85,7 +85,7 @@ export default function Home() {
         maxWidth: '400px',
         margin: 0
       }}>
-        is a data reporter at the <em>Houston Chronicle</em>. They previously interned on the Interactive News team at <em>The New York Times</em>. Their debut poetry chapbook, <em>Desire Path</em>, is forthcoming with <em>Chestnut Review</em>. They hope you have a wonderful day.
+        is a data reporter at the Houston Chronicle. They previously interned on the Interactive News team at The New York Times. Their debut poetry chapbook, <em>Desire Path</em>, is forthcoming with Chestnut Review. They hope you have a wonderful day.
       </p>
 
       {/* Decorative bottom text */}
